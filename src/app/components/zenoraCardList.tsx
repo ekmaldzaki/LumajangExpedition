@@ -3,14 +3,12 @@
 import ZenoraCard from "./zenoraCard";
 import en from "../locales/en.json";
 import id from "../locales/id.json";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export default function ZenoraCardList() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const locale =
-    searchParams.get("locale") || (pathname?.startsWith("/id") ? "id" : "en");
-  const data = (locale === "id" ? id.cards : en.cards) || [];
+  const locale = pathname?.startsWith("/id") ? "id" : "en";
+  const data = locale === "id" ? id.cards : en.cards;
 
   return (
     <div className="flex flex-col items-center gap-6">
