@@ -60,7 +60,7 @@ export default function ZenoraCard({ card }: ZenoraCardProps) {
           <Dialog.Panel className="bg-white p-4 sm:p-6 rounded-lg max-w-3xl w-full mx-2">
             <div className="flex flex-col md:flex-row gap-2 sm:gap-4">
               {/* Foto-foto di atas (mobile) atau kiri (desktop) */}
-              <div className="grid grid-cols-4 gap-1 sm:gap-2 w-full md:w-1/2">
+              <div className="grid grid-cols-4 sm:grid-cols-2 gap-1 sm:gap-2 w-full md:w-1/2">
                 {card.details.images.slice(0, 4).map((image, index) => (
                   <img
                     key={index}
@@ -81,7 +81,7 @@ export default function ZenoraCard({ card }: ZenoraCardProps) {
                 </Dialog.Description>
                 <button
                   onClick={closeModal}
-                  className="mt-2 sm:mt-4 px-3 py-1.5 sm:px-4 sm:py-2 text-sm sm:text-base bg-blue-500 text-white rounded-md hover:bg-blue-600"
+                  className="mt-2 sm:mt-4 px-3 py-1.5 sm:px-4 sm:py-2 text-sm sm:text-base bg-red-500 text-white rounded-md hover:bg-red-600"
                 >
                   Close
                 </button>
