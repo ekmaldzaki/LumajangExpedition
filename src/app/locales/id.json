@@ -1,0 +1,66 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "image": "/images/tumpaksewu_2.png",
+      "title": "Air Terjun Tumpak Sewu",
+      "description": "Tumpak Sewu adalah air terjun besar yang dikenal sebagai 'seribu air terjun' karena aliran airnya yang sangat banyak, turun dari berbagai ketinggian menyerupai tirai dan membentuk pemandangan yang sangat indah.",
+      "details": {
+        "images": [
+          "/images/tumpaksewu_2.png",
+          "/images/tumpaksewu_3.png",
+          "/images/tumpaksewu_4.png",
+          "/images/tumpaksewu_5.png"
+        ],
+        "title": "Air Terjun Tumpak Sewu",
+        "description": "Tumpak Sewu adalah air terjun besar yang dikenal sebagai 'seribu air terjun' karena aliran airnya yang sangat banyak, turun dari berbagai ketinggian menyerupai tirai dan menciptakan pemandangan yang indah. Untuk mendapatkan pemandangan yang menakjubkan, kamu bisa berfoto di spot Panorama Tumpak Sewu dan melakukan trekking ke bawah menuju air terjun sekitar 20 menit dengan ketinggian 400 meter. Terdapat beberapa akses menuju air terjun, namun umumnya wisatawan memulai trekking dari Panorama Tumpak Sewu yang terletak di Desa Sidomulyo. Di sekitar Tumpak Sewu juga terdapat beberapa spot untuk menikmati suasana alam seperti Goa Tetes dan Telaga Biru."
+      }
+    },
+    {
+      "id": 2,
+      "image": "/images/bromo_2.png",
+      "title": "Gunung Bromo",
+      "description": "Gunung Bromo adalah destinasi wisata terbaik di Jawa Timur yang memiliki kaldera indah di sekitarnya, dan termasuk dalam kawasan taman nasional yang sama dengan Gunung Semeru.",
+      "details": {
+        "images": [
+          "/images/bromo_2.png",
+          "/images/bromo_3.png",
+          "/images/bromo_4.png",
+          "/images/bromo_5.png"
+        ],
+        "title": "Gunung Bromo",
+        "description": "Gunung Bromo adalah destinasi wisata terbaik di Jawa Timur yang memiliki kaldera indah di sekitarnya, dan termasuk dalam kawasan taman nasional yang sama dengan Gunung Semeru. Kamu bisa mendaki hingga ke kawah Bromo dengan berjalan kaki dari lereng Gunung Bromo selama kurang dari 1 jam. Pemandangan indah Gunung Bromo juga bisa dinikmati dari beberapa spot sunrise. Di sekitar Gunung Bromo terdapat lembah, padang savana, dan hamparan pasir yang dikelilingi kaldera. Untuk memulai perjalanan ke Gunung Bromo melalui Lumajang, kamu harus melewati Desa Ranu Pani yang juga menjadi akses pendakian menuju Gunung Semeru."
+      }
+    },
+    {
+      "id": 3,
+      "image": "/images/lavatour_2.png",
+      "title": "Lava Tour Semeru",
+      "description": "Lava Tour Semeru adalah perjalanan eksplorasi di sekitar lereng Gunung Semeru menggunakan mobil Jeep 4WD, menyusuri aliran lava, hutan pinus, jalanan indah dengan latar belakang Gunung Semeru, dan bermain cipratan air sepanjang jalan.",
+      "details": {
+        "images": [
+          "/images/lavatour_2.png",
+          "/images/lavatour_3.png",
+          "/images/lavatour_4.png",
+          "/images/lavatour_5.png"
+        ],
+        "title": "Lava Tour Semeru",
+        "description": "Lava Tour Semeru adalah perjalanan eksplorasi di sekitar lereng Gunung Semeru menggunakan mobil Jeep 4WD, menyusuri aliran lava, hutan pinus, jalanan indah dengan latar belakang Gunung Semeru, dan bermain cipratan air sepanjang jalan. Setelah menjelajahi area sekitar lereng Semeru, kamu akan melanjutkan perjalanan ke Panorama Kapas Biru dengan latar belakang Gunung Semeru dan air terjun Kapas Biru. Lava Tour Semeru berlokasi di Pronojiwo, sebuah kecamatan di Lumajang yang masih berada dalam kawasan yang sama dengan Tumpak Sewu."
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "📅 Hari 1 – Kedatangan di Surabaya",
+      "description": "🚗 Penjemputan di Bandara Internasional Juanda (Surabaya)<br>🛣️ Perjalanan ke hotel di Pronojiwo (sekitar 3–4 jam)<br>🏨 Check-in hotel & waktu bebas untuk istirahat"
+    },
+    {
+      "title": "📅 Hari 2 – Lava Tour Semeru & Air Terjun Tumpak Sewu",
+      "description": "🕔 05:00 – Mulai Lava Tour dengan Jeep 4WD<br>>➤ Jelajahi lereng Gunung Semeru<br>➤ Kunjungi aliran lava, hutan pinus, dan jalanan indah dengan latar Gunung Semeru<br>➤ Driver Jeep akan membantu dokumentasi foto & video<br>➤ Nikmati cipratan air selama perjalanan<br><br>🍽️ Kembali ke hotel untuk sarapan, mandi, dan istirahat sejenak<br><br>🌊 Kunjungan ke Air Terjun Tumpak Sewu<br>➤ Briefing keamanan oleh pemandu lokal<br>➤ Trekking menuju dasar air terjun<br>➤ Pemandu membantu pengambilan foto & video<br><br>🚐 Lanjut perjalanan ke hotel di kawasan Senduro (sekitar 2 jam)<br><br>🏨 Check-in hotel & istirahat untuk persiapan petualangan selanjutnya"
+    },
+    {
+      "title": "📅 Hari 3 – Tur Sunrise Gunung Bromo",
+      "description": "🕛 00:00 – Penjemputan oleh Jeep 4WD untuk tur sunrise<br>>➤ Perjalanan ke viewpoint Penanjakan (sekitar 1 jam)<br>➤ Nikmati pemandangan matahari terbit di atas Gunung Bromo<br>➤ Kunjungi Kawah Bromo, kaldera, padang savana, dan pasir berbisik<br><br>🍽️ Kembali ke hotel untuk sarapan & check-out<br><br>✈️ Antar ke Bandara Surabaya"
+    }
+  ]
+}

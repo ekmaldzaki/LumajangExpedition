@@ -1,0 +1,66 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "image": "/images/tumpaksewu_2.png",
+      "title": "Tumpak Sewu Waterfall",
+      "description": "Tumpak Sewu is a Huge Waterfall that known as a thousands waterfall because there is so many flow of water descends from various heights resembling curtains and forming a beautiful view.",
+      "details": {
+        "images": [
+          "/images/tumpaksewu_2.png",
+          "/images/tumpaksewu_3.png",
+          "/images/tumpaksewu_4.png",
+          "/images/tumpaksewu_5.png"
+        ],
+        "title": "Tumpak Sewu Waterfall",
+        "description": "Tumpak Sewu is a Huge Waterfall that known as a thousands waterfall because there is so many flow of water descends from various heights resembling curtains and forming a beautiful view. To get the beautiful view you can take a Photo in Panorama Tumpak Sewu spot and Tracking down to the Waterfall around 20 minutes with 400 meters height.  There is some access to the Waterfall, but mostly people start tracking from Panorama Tumpak Sewu that located in Sidomulyo Village. Also there is several spot to enjoy the nature vibes around Tumpak Sewu such as Goa Tetes and Telaga Biru."
+      }
+    },
+    {
+      "id": 2,
+      "image": "/images/bromo_2.png",
+      "title": "Mount Bromo",
+      "description": "Mount Bromo is the best tourism destination in East Java that have a beautiful caldera around him, which is also included in the same national park area as Mount Semeru.",
+      "details": {
+        "images": [
+          "/images/bromo_2.png",
+          "/images/bromo_3.png",
+          "/images/bromo_4.png",
+          "/images/bromo_5.png"
+        ],
+        "title": "Mount Bromo",
+        "description": "Mount Bromo is the best tourism destination in East Java that have a beautiful caldera around him, which is also included in the same national park area as Mount Semeru. You can hiking to Bromo Crater by walking start from the Mount Bromo slopes around less than 1 hour. You can enjoy the beautiful Panorama of Bromo from several sunrise point spots.  Around Mount Bromo there are also valleys, savannas and deserts that surrounding by the caldera. To start the journey to Mount Bromo via Lumajang, you have to pass through Ranu Pani Village which also has access as a gateway to climbing Mount Semeru."
+      }
+    },
+    {
+      "id": 3,
+      "image": "/images/lavatour_2.png",
+      "title": "Lava Tour Semeru",
+      "description": "Lava Tour Semeru is a journey that will take you on an exploration around the slopes of Mount Semeru by 4 Wheel Drive (Jeep) such as Lava Flow, Pine Forest, beautiful road with the Mount Semeru Background, and have fun with splash water all the way.",
+      "details": {
+        "images": [
+          "/images/lavatour_2.png",
+          "/images/lavatour_3.png",
+          "/images/lavatour_4.png",
+          "/images/lavatour_5.png"
+        ],
+        "title": "Lava Tour Semeru",
+        "description": "Lava Tour Semeru is a journey that will take you on an exploration around the slopes of Mount Semeru by 4 Wheel Drive (Jeep) such as Lava Flow, Pine Forest, beautiful road with the Mount Semeru Background, and have fun with splash water all the way. After exploring the area around the slopes of Semeru, you will continue your journey to the Panorama Kapas Biru with the background of Mount Semeru and the Kapas Biru waterfall, the Lava Tour Semeru was located in Pronojiwo which is the sub-district of Lumajang and is still in the same area as Tumpak Sewu."
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "📅 Day 1 – Arrival in Surabaya",
+      "description": "🚗 Airport pickup at Juanda International Airport (Surabaya)<br>🛣️ Drive to hotel in Pronojiwo (approx. 3–4 hours)<br>🏨 Hotel check-in & free time to rest"
+    },
+    {
+      "title": "📅 Day 2 – Lava Tour Semeru & Tumpak Sewu Waterfall",
+      "description": "🕔 05:00 – Start the Lava Tour by 4WD Jeep<br>>➤ Explore the slopes of Mount Semeru<br>➤ Visit Lava Flow, Pine Forest, and scenic roads with Mount Semeru in the background<br>➤ Jeep driver will assist with photo & video documentation<br>➤ Enjoy splash water all the way<br><br>🍽️ Return to hotel for breakfast, shower, and short rest<br><br>🌊 Visit Tumpak Sewu Waterfall<br>➤ Safety briefing by local guide<br>➤ Trekking to the waterfall base<br>➤ Guide helps with capturing moments<br><br>🚐 Continue the journey to hotel in Senduro district (approx. 2 hours)<br><br>🏨 Hotel check-in & rest for the next adventure"
+    },
+    {
+      "title": "📅 Day 3 – Mount Bromo Sunrise Tour",
+      "description": "🕛 00:00 – Pick up by 4WD Jeep for sunrise tour<br>>➤ Drive to Penanjakan viewpoint (approx. 1 hour)<br>➤ Enjoy sunrise view over Mount Bromo<br>➤ Visit Bromo Crater, caldera, savannah, and whispering sands<br><br>🍽️ Back to hotel for breakfast & check-out<br><br>✈️ Drop-off at Surabaya Airport"
+    }
+  ]
+}
