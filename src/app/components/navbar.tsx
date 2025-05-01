@@ -1,16 +1,34 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useLocale } from "../hooks/useLocale";
 
 export default function Navbar() {
   const { locale, switchLocale } = useLocale();
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const handleLanguageChange = (lang: string) => {
     switchLocale();
     setIsLanguageDropdownOpen(false);
   };
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsLanguageDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="bg-[#2E7D32] text-white py-4 shadow-md fixed top-0 left-0 w-full z-50">
@@ -23,7 +41,7 @@ export default function Navbar() {
         </div>
 
         {/* Language Switcher */}
-        <div className="relative">
+        <div className="relative" ref={dropdownRef}>
           <button
             onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
             className="text-white bg-transparent hover:bg-gray-700 rounded-full p-2"
