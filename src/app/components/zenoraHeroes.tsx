@@ -27,7 +27,7 @@ export default function Heroes({ title, description, images }: HeroesProps) {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-xl md:text-4xl font-bold mb-8"
+          className="text-xl md:text-3xl font-bold mb-8"
         >
           {heroTitle?.split("\n").map((line, index) => (
             <span key={index}>

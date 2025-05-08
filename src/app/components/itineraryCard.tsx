@@ -20,9 +20,10 @@ export default function ItineraryCard({ item }: ItineraryCardProps) {
       {/* Title section */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full px-4 py-4 bg-gray-100 hover:bg-gray-200 font-semibold text-[#252525] text-left"
+        className="w-full px-4 py-4 bg-gray-100 hover:bg-gray-200 font-semibold text-[#252525] text-left flex items-center justify-between"
       >
-        {item.title}
+        <span>{item.title}</span>
+        <span className={`text-green-500 text-xl`}>{isOpen ? "-" : "+"}</span>
       </button>
 
       {/* Accordion content opens below */}

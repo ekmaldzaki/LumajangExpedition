@@ -1,7 +1,7 @@
 "use client";
 
-import HeroesNoimg from "../components/heroesNoimg";
-import LogoCenter from "../components/logoCenter";
+import Navbar from "../components/navbar";
+import HeroesWithimg from "../components/heroesWithimg";
 import ZenoraHeroes from "../components/zenoraHeroes";
 import ZenoraCardList from "../components/zenoraCardList";
 import ItineraryCardList from "../components/itineraryCardList";
@@ -10,14 +10,11 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <div className="bg-gray-50">
-      <HeroesNoimg
-        title="Welcome to Lumajang Expedition Tour!"
+      <Navbar />
+      <HeroesWithimg
+        title="Lumajang"
+        subtitle="Expedition Tour!"
         description="Jelajahi keindahan Lumajang bersama kami. Bergabunglah dalam ekspedisi kami dan temukan permata tersembunyi di daerah yang indah ini di Jawa Timur Indonesia."
-      />
-      <LogoCenter
-        src="/images/logo_1.jpg"
-        alt="Zenora Logo"
-        title="Zenora Tour and Travel"
       />
       <ZenoraHeroes
         title="Tumpak Sewu - Bromo - Lava Tour Semeru 3 Days 2 Night from Surabaya Airport"

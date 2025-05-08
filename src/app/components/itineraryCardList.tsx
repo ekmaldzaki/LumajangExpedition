@@ -25,7 +25,7 @@ export default function ItineraryCardList() {
   return (
     <div className="space-y-4 py-16 px-4">
       {/* Title centered */}
-      <h1 className="text-xl md:text-4xl font-bold text-gray-800 mb-16 text-center">
+      <h1 className="text-xl md:text-3xl font-bold text-gray-800 mb-16 text-center">
         Itinerary Tumpak Sewu - Bromo - Lava Tour Semeru <br /> 3 Days 2 Nights
         from Surabaya Airport
       </h1>

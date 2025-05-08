@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import { Rubik } from "next/font/google";
 import "../../app/globals.css";
-import Navbar from "../components/navbar";
 
 const rubik = Rubik({
   variable: "--font-rubik",
@@ -14,7 +13,7 @@ export const metadata = {
   description:
     "Explore the beauty of Lumajang, East Java, Indonesia with our curated travel guide. Discover hidden gems, local culture, and unforgettable experiences.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/images/logo_1.jpg",
   },
   openGraph: {
     images: [
@@ -38,10 +37,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html>
-      <body className={`${rubik.variable} antialiased`}>
-        <Navbar />
-        {children}
-      </body>
+      <body className={`${rubik.variable} antialiased`}>{children}</body>
     </html>
   );
 }
